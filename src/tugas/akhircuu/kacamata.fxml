@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="488.0" prefWidth="641.0" style="-fx-background-color: #95a5a6;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.akhircuu.KacamataController">
+   <children>
+      <AnchorPane layoutX="177.0" layoutY="6.0" opacity="0.35" prefHeight="46.0" prefWidth="307.0" style="-fx-background-color: #013a15;" />
+      <AnchorPane layoutX="430.0" layoutY="275.0" opacity="0.3" prefHeight="200.0" prefWidth="192.0" style="-fx-background-color: #013a15;" />
+      <AnchorPane layoutX="221.0" layoutY="275.0" opacity="0.3" prefHeight="200.0" prefWidth="192.0" style="-fx-background-color: #013a15;" />
+      <AnchorPane layoutX="12.0" layoutY="275.0" opacity="0.3" prefHeight="200.0" prefWidth="192.0" style="-fx-background-color: #013a15;" />
+      <AnchorPane layoutX="435.0" layoutY="58.0" opacity="0.3" prefHeight="200.0" prefWidth="192.0" style="-fx-background-color: #013a15;" />
+      <AnchorPane layoutX="221.0" layoutY="58.0" opacity="0.3" prefHeight="200.0" prefWidth="192.0" style="-fx-background-color: #013a15;" />
+      <AnchorPane layoutX="14.0" layoutY="58.0" opacity="0.3" prefHeight="200.0" prefWidth="192.0" style="-fx-background-color: #013a15;" />
+      <RadioButton fx:id="petama" layoutX="68.0" layoutY="236.0" mnemonicParsing="false" onAction="#pertama" text="Frame 1" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="satu" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="kedua" layoutX="277.0" layoutY="237.0" mnemonicParsing="false" onAction="#kedua" text="Frame 2" textFill="WHITE" toggleGroup="$satu" />
+      <RadioButton fx:id="ketiga" layoutX="493.0" layoutY="238.0" mnemonicParsing="false" onAction="#ketiga" text="Frame 3" textFill="WHITE" toggleGroup="$satu" />
+      <RadioButton fx:id="keempat" layoutX="67.0" layoutY="452.0" mnemonicParsing="false" onAction="#keempat" text="Frame 4" textFill="WHITE" toggleGroup="$satu" />
+      <RadioButton fx:id="kelima" layoutX="288.0" layoutY="452.0" mnemonicParsing="false" onAction="#kelima" text="Frame 5" textFill="WHITE" toggleGroup="$satu" />
+      <RadioButton fx:id="keenam" layoutX="493.0" layoutY="450.0" mnemonicParsing="false" onAction="#keenam" text="Frame 6" textFill="WHITE" toggleGroup="$satu" />
+      <ImageView fitHeight="163.0" fitWidth="169.0" layoutX="26.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/_bunga_optikal_171121_093734.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="163.0" layoutX="239.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/_bunga_optikal_171121_093908.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="180.0" layoutX="449.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/_bunga_optikal_171121_094235.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="163.0" layoutX="26.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/_bunga_optikal_171121_094413.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="163.0" layoutX="235.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/_bunga_optikal_171121_094308.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="163.0" layoutX="444.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/_bunga_optikal_171121_094542.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="205.0" layoutY="12.0" text="CHOOSE YOUR FRAME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpan" layoutX="557.0" layoutY="17.0" mnemonicParsing="false" onAction="#simpan" prefHeight="25.0" prefWidth="64.0" text="SAVE" />
+   </children>
+</AnchorPane>

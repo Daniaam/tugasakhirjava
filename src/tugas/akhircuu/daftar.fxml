@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="682.0" style="-fx-background-color: #161208;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.akhircuu.DaftarController">
+   <children>
+      <ImageView fitHeight="462.0" fitWidth="682.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gambar/BG.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="278.0" layoutY="9.0" text="OPTIK CRIME" textFill="#c9c9c9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="35.0" layoutY="70.0" opacity="0.5" prefHeight="404.0" prefWidth="318.0" style="-fx-background-color: #191918;">
+         <children>
+            <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="21.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gambar/y.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="21.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gambar/a.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="btnDaftar" layoutX="107.0" layoutY="299.0" onAction="#btnDaftar" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #7be1e5;" text="SIGNUP" />
+            <TextField fx:id="user" layoutX="70.0" layoutY="178.0" prefHeight="30.0" prefWidth="227.0" promptText="USERNAME">
+               <font>
+                  <Font size="11.0" />
+               </font></TextField>
+            <PasswordField fx:id="pass" layoutX="70.0" layoutY="234.0" prefHeight="30.0" prefWidth="227.0" promptText="PASSWORD">
+               <font>
+                  <Font size="11.0" />
+               </font></PasswordField>
+            <TextField fx:id="telp" layoutX="70.0" layoutY="122.0" prefHeight="30.0" prefWidth="227.0" promptText="TELEPHONE">
+               <font>
+                  <Font size="11.0" />
+               </font></TextField>
+            <TextField fx:id="nama" layoutX="70.0" layoutY="66.0" prefHeight="30.0" prefWidth="227.0" promptText="NAME">
+               <font>
+                  <Font size="11.0" />
+               </font></TextField>
+            <ImageView fitHeight="56.0" fitWidth="65.0" layoutX="12.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gambar/t.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="21.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gambar/iu.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="22.0" layoutY="354.0" onAction="#btnLogin" prefHeight="18.0" prefWidth="74.0" style="-fx-background-color: #7be1e5;" text="LOGIN" />
+            <ImageView fitHeight="68.0" fitWidth="65.0" layoutX="127.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gambar/i.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
